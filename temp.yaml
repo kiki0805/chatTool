@@ -1,0 +1,17 @@
+type : chat # access / create / enter / leave / join / quit
+user :
+	user_sock : 0 # defaul
+	user_name : empty # defaul
+room :
+	room_id : 0 # defaul
+	room_name : empty # defaul
+	room_cap : 0  # defaul
+	member_num : 0 # defaul
+content : 
+	chat_content : empty # defaul
+	room_list :
+	- room_id0
+	- ...
+	user_list :
+	- user_sock0
+	- ...
